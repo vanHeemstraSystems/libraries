@@ -6,7 +6,11 @@ This repository contains amongst others the following:
 ### Alt - A library for managing data within JavaScript applications.
 See also http://alt.js.org/
 
-Alt is a library that facilitates the managing of state within your JavaScript applications. It is modeled after flux.
+Alt is a library that facilitates the managing of state within your JavaScript applications. 
+
+Its tutorial is part of our repositories, see https://github.com/goatslacker/alt-tutorial
+
+It is modeled after flux.
 
 *What is flux?*
 
