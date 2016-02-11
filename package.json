@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vanHeemstraSystems/libraries/issues"
   },
-  "homepage": "https://github.com/vanHeemstraSystems/libraries#readme"
+  "homepage": "https://github.com/vanHeemstraSystems/libraries#readme",
+  "dependencies": {
+    "alt": "^0.18.2"
+  }
 }
