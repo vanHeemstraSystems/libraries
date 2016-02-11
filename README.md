@@ -23,7 +23,9 @@ npm install
 ### Head - The only script in your <HEAD>
 See also http://headjs.com
 
-### Pass - 
+### Pass - Hash and compare passwords with pbkdf2
+See also https://github.com/visionmedia/node-pwd
 
 
-### Require - 
+### Require - A file and module loader for JavaScript
+See also http://github.com/jrburke/requirejs
