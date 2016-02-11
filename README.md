@@ -3,7 +3,7 @@ The Libraries Subtree
 
 This repository contains amongst others the following:
 
-## Alt - A library for managing data within JavaScript applications.
+### Alt - A library for managing data within JavaScript applications.
 See also http://alt.js.org/
 
 Alt is a library that facilitates the managing of state within your JavaScript applications. It is modeled after flux.
