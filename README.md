@@ -23,12 +23,16 @@ npm install
 
 ### Device - 
 
+### History - 
 
 ### Head - The only script in your <HEAD>
 See also http://headjs.com
 
 ### History
 
+
+### Lodash - A modern JavaScript utility library delivering modularity, performance, & extras.
+See also https://lodash.com/
 
 ### Pass - Hash and compare passwords with pbkdf2
 See also https://github.com/visionmedia/node-pwd
