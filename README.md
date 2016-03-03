@@ -22,13 +22,16 @@ To install the node_modules run:
 npm install
 
 ### Device - 
+See also 
 
-
-### Head - The only script in your <HEAD>
+### Head - The only script in your <HEAD>.
 See also http://headjs.com
 
-### History
+### History - A minimal, functional history library for JavaScript.
+See also https://github.com/reactjs/history
 
+### Lodash - A modern JavaScript utility library delivering modularity, performance, & extras.
+See also https://lodash.com/
 
 ### Pass - Hash and compare passwords with pbkdf2
 See also https://github.com/visionmedia/node-pwd
@@ -42,3 +45,6 @@ See also https://facebook.github.io/react/
 
 ### Require - A file and module loader for JavaScript
 See also http://github.com/jrburke/requirejs
+
+## Underscore - A whole mess of useful functional programming helpers without extending any built-in objects.
+See also http://underscorejs.org
