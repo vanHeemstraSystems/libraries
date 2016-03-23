@@ -39,6 +39,7 @@
     "react-router": "^2.0.0",
     "request": "^2.69.0",
     "rethinkdb": "^2.2.2",
+    "rethinkdbdash": "^2.2.18",
     "swig": "^1.4.2",
     "underscore": "^1.8.3",
     "validator": "^5.1.0",
