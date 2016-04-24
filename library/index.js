@@ -8,9 +8,10 @@ var LibraryBluebird = require(__dirname+'/bluebird.js');
 var LibraryBodyParser = require(__dirname+'/body-parser.js');
 var LibraryCreateBrowserHistory = require(__dirname+'/create-browser-history.js');
 var LibraryDevice = require(__dirname+'/device.js');
+var LibraryExpressPartials = require(__dirname+'/express-partials.js');
 var LibraryExpressSession = require(__dirname+'/express-session.js');
 var LibraryFs = require(__dirname+'/fs.js');
-var LibraryHead = require(__dirname+'/head.js');
+//var LibraryHead = require(__dirname+'/head.js'); // TEMP COMMENTED OUT window is not defined
 var LibraryHistory = require(__dirname+'/history.js');
 var LibraryHttp = require(__dirname+'/http.js');
 var LibraryI18n = require(__dirname+'/i18n.js');
@@ -102,6 +103,14 @@ Library.prototype.device = function() {
 }
 
 /**
+ * Create a new LibraryExpressPartials object.
+ * @return {LibraryExpressPartials}
+ */
+Library.prototype.expressPartials = function() {
+  return new LibraryExpressPartials();
+}
+
+/**
  * Create a new LibraryExpressSession object.
  * @return {LibraryExpressSession}
  */
@@ -129,9 +138,9 @@ Library.prototype.fs = function() {
  * Create a new LibraryHead object.
  * @return {LibraryHead}
  */
-Library.prototype.head = function() {
-  return new LibraryHead();
-}
+//Library.prototype.head = function() { // TEMP COMMENTED OUT, window is not defined
+//  return new LibraryHead();
+//}
 
 /**
  * Create a new LibraryHistory object.
