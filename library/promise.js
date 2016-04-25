@@ -10,4 +10,4 @@
 // But when it comes to async success/failure, ideally you want promises.
 // Source: http://www.html5rocks.com/en/tutorials/es6/promises/#toc-async
 
-module.exports = require('bluebird');
+module.exports = function() { return(require('bluebird')) }; // Exception, Promise module needs to be wrapped in a function
