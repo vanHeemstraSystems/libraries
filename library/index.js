@@ -338,8 +338,8 @@ Library.prototype.underscore = function() {
  * Create a new LibraryUri object.
  * @return {LibraryUri}
  */
-Library.prototype.uri = function() {
-  return new LibraryUri();
+Library.prototype.uri = function(input) { // requires an input parameter, e.g. a URL
+  return new LibraryUri(input);
 }
 
 /**
