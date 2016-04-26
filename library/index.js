@@ -8,6 +8,7 @@ var LibraryBluebird = require(__dirname+'/bluebird.js');
 var LibraryBodyParser = require(__dirname+'/body-parser.js');
 var LibraryCreateBrowserHistory = require(__dirname+'/create-browser-history.js');
 var LibraryDevice = require(__dirname+'/device.js');
+var LibraryExpress = require(__dirname+'/express.js');
 var LibraryExpressPartials = require(__dirname+'/express-partials.js');
 var LibraryExpressSession = require(__dirname+'/express-session.js');
 var LibraryFs = require(__dirname+'/fs.js');
@@ -123,7 +124,7 @@ Library.prototype.expressSession = function() {
  * @return {LibraryExpress}
  */
 Library.prototype.express = function() {
-  return new LibraryExpress();
+  return new LibraryExpress;
 }
 
 /**
