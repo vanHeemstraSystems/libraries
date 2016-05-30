@@ -17,5 +17,4 @@ Libraries.prototype.library = function() {
   return new LibrariesLibrary();
 }
 
-//ORIGINAL module.exports = new Libraries();
-module.exports = function() { return new Libraries(); }
+module.exports = Libraries;
