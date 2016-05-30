@@ -2,4 +2,7 @@
 //
 //export default Fs;
 
-module.exports = require('fs');
+module.exports = function() {
+  var _fs = require('fs');
+  return _fs;
+};

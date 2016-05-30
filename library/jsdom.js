@@ -2,4 +2,7 @@
 //
 //export default JSDom;
 
-module.exports = require('jsdom');
+module.exports = function() {
+  var _jsdom = require('jsdom');
+  return _jsdom;
+};
